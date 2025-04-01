@@ -1,0 +1,6 @@
+Invoking command in '/my_new_project/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /my_new_project/ros2_ws/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/my_new_project/ros2_ws/install/turtlesim
+Invoked command in '/my_new_project/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /my_new_project/ros2_ws/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/my_new_project/ros2_ws/install/turtlesim
+Invoking command in '/my_new_project/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /my_new_project/ros2_ws/build/turtlesim -- -j16 -l16
+Invoked command in '/my_new_project/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /my_new_project/ros2_ws/build/turtlesim -- -j16 -l16
+Invoking command in '/my_new_project/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /my_new_project/ros2_ws/build/turtlesim
+Invoked command in '/my_new_project/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /my_new_project/ros2_ws/build/turtlesim

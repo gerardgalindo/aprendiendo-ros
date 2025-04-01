@@ -1,0 +1,22 @@
+Load param file .yaml on startup
+ros2 run turtlesim turtlesim_node --ros-args --params-file params.yaml
+
+Comandos
+ros2 run
+ros2 topic
+ros2 node  
+ros2 param
+ros2 service
+ros2 action
+
+Build all
+colcon build --symlink-install (autocomplete comprobar)
+
+Create package
+ros2 pkg create --build-type ament_cmake --node-name my_node my_package
+
+Build package
+colcon build --packages-select my_package
+
+After build, source
+source install/local_setup.bash 

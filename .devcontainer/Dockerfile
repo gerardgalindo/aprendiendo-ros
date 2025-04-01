@@ -33,6 +33,9 @@ RUN rosdep update
 # Source the ROS setup file
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
 
+# Setup colcon tab completion
+RUN echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
+
 ################################
 ## ADD ANY CUSTOM SETUP BELOW ##
 ################################
