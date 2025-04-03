@@ -1,0 +1,46 @@
+[0.363s] Invoking command in '/my_new_project/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /my_new_project/ros2_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/my_new_project/ros2_ws/install/cpp_pubsub
+[1.187s] -- The C compiler identification is GNU 13.3.0
+[1.739s] -- The CXX compiler identification is GNU 13.3.0
+[1.877s] -- Detecting C compiler ABI info
+[3.450s] -- Detecting C compiler ABI info - done
+[3.517s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.519s] -- Detecting C compile features
+[3.520s] -- Detecting C compile features - done
+[3.742s] -- Detecting CXX compiler ABI info
+[5.694s] -- Detecting CXX compiler ABI info - done
+[5.782s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.784s] -- Detecting CXX compile features
+[5.814s] -- Detecting CXX compile features - done
+[6.104s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[8.723s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[9.267s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[11.225s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[13.833s] -- Added test 'lint_cmake' to check CMake code style
+[14.398s] -- Added test 'xmllint' to check XML markup files
+[14.665s] -- Configuring done (14.1s)
+[15.281s] -- Generating done (0.5s)
+[15.630s] -- Build files have been written to: /my_new_project/ros2_ws/build/cpp_pubsub
+[15.640s] Invoked command in '/my_new_project/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /my_new_project/ros2_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/my_new_project/ros2_ws/install/cpp_pubsub
+[15.680s] Invoking command in '/my_new_project/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /my_new_project/ros2_ws/build/cpp_pubsub -- -j16 -l16
+[15.776s] gmake: Warning: File 'Makefile' has modification time 0.16 s in the future
+[16.224s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[16.228s] Invoked command in '/my_new_project/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /my_new_project/ros2_ws/build/cpp_pubsub -- -j16 -l16
+[16.255s] Invoking command in '/my_new_project/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /my_new_project/ros2_ws/build/cpp_pubsub
+[16.357s] -- Install configuration: ""
+[16.372s] -- Execute custom install script
+[16.416s] -- Symlinking: /my_new_project/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[16.641s] -- Symlinking: /my_new_project/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[16.866s] -- Symlinking: /my_new_project/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[17.058s] -- Symlinking: /my_new_project/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[17.244s] -- Symlinking: /my_new_project/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[17.392s] -- Symlinking: /my_new_project/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[17.557s] -- Symlinking: /my_new_project/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[17.690s] -- Symlinking: /my_new_project/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[17.870s] -- Symlinking: /my_new_project/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[18.034s] -- Symlinking: /my_new_project/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[18.179s] -- Symlinking: /my_new_project/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[18.346s] -- Symlinking: /my_new_project/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[18.495s] -- Symlinking: /my_new_project/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[18.643s] -- Symlinking: /my_new_project/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[18.834s] -- Symlinking: /my_new_project/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[18.961s] Invoked command in '/my_new_project/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /my_new_project/ros2_ws/build/cpp_pubsub

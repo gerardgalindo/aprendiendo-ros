@@ -9,11 +9,16 @@ ros2 param
 ros2 service
 ros2 action
 
-Build all
-colcon build --symlink-install (autocomplete comprobar)
+En ros2_ws/
 
-Create package
+Create package C++
 ros2 pkg create --build-type ament_cmake --node-name my_node my_package
+
+Create package Python
+
+
+Build all
+colcon build --symlink-install
 
 Build package
 colcon build --packages-select my_package
