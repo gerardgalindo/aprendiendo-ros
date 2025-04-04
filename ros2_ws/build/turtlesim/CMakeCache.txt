@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -286,7 +286,7 @@ Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
 Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5
 
 //Name of the computer/site where compile is being run
-SITE:STRING=8b6ba4890d31
+SITE:STRING=3f0008245f18
 
 //The directory containing a CMake configuration file for TinyXML2.
 TinyXML2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/tinyxml2
@@ -574,7 +574,7 @@ turtlesim_BINARY_DIR:STATIC=/my_new_project/ros2_ws/build/turtlesim
 turtlesim_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-turtlesim_SOURCE_DIR:STATIC=/my_new_project/ros2_ws/ros_tutorials/turtlesim
+turtlesim_SOURCE_DIR:STATIC=/my_new_project/ros2_ws/src/ros_tutorials/turtlesim
 
 //Dependencies for the target
 turtlesim__rosidl_generator_py_LIB_DEPENDS:STATIC=general;turtlesim__rosidl_generator_c;general;Python3::Python;general;turtlesim__rosidl_typesupport_c;general;service_msgs::service_msgs__rosidl_generator_c;general;service_msgs::service_msgs__rosidl_typesupport_fastrtps_c;general;service_msgs::service_msgs__rosidl_typesupport_fastrtps_cpp;general;service_msgs::service_msgs__rosidl_typesupport_introspection_c;general;service_msgs::service_msgs__rosidl_typesupport_c;general;service_msgs::service_msgs__rosidl_typesupport_introspection_cpp;general;service_msgs::service_msgs__rosidl_typesupport_cpp;general;service_msgs::service_msgs__rosidl_generator_py;general;service_msgs::service_msgs__rosidl_generator_py;general;builtin_interfaces::builtin_interfaces__rosidl_generator_c;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_fastrtps_c;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_introspection_c;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_c;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_fastrtps_cpp;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_introspection_cpp;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_cpp;general;builtin_interfaces::builtin_interfaces__rosidl_generator_py;general;builtin_interfaces::builtin_interfaces__rosidl_generator_py;general;action_msgs::action_msgs__rosidl_generator_c;general;action_msgs::action_msgs__rosidl_typesupport_fastrtps_c;general;action_msgs::action_msgs__rosidl_typesupport_fastrtps_cpp;general;action_msgs::action_msgs__rosidl_typesupport_introspection_c;general;action_msgs::action_msgs__rosidl_typesupport_c;general;action_msgs::action_msgs__rosidl_typesupport_introspection_cpp;general;action_msgs::action_msgs__rosidl_typesupport_cpp;general;action_msgs::action_msgs__rosidl_generator_py;general;action_msgs::action_msgs__rosidl_generator_py;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_fastrtps_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_introspection_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_fastrtps_cpp;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_introspection_cpp;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_cpp;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_py;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_py;
@@ -682,7 +682,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/my_new_project/ros2_ws/ros_tutorials/turtlesim
+CMAKE_HOME_DIRECTORY:INTERNAL=/my_new_project/ros2_ws/src/ros_tutorials/turtlesim
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -822,8 +822,6 @@ _Python3_LIBRARY_RELEASE:INTERNAL=/usr/lib/x86_64-linux-gnu/libpython3.12.so
 _Python3_NUMPY_SIGNATURE:INTERNAL=d5ddeb909deee809c18fdfbea68bafbe
 //Path to a file.
 _Python3_NumPy_INCLUDE_DIR:INTERNAL=/usr/lib/python3/dist-packages/numpy/core/include
-//Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=4
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto

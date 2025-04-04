@@ -1,0 +1,42 @@
+[2.754s] Invoking command in '/my_new_project/ros2_ws/src/py_pubsub': PYTHONPATH=/my_new_project/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_new_project/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /my_new_project/ros2_ws/build/py_pubsub/build install --record /my_new_project/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[3.732s] running egg_info
+[3.736s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[3.769s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[3.781s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[3.788s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[3.795s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[3.801s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[3.808s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[3.952s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[3.995s] adding license file 'LICENSE'
+[4.028s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[4.032s] running build
+[4.033s] running build_py
+[4.039s] creating /my_new_project/ros2_ws/build/py_pubsub/build
+[4.041s] creating /my_new_project/ros2_ws/build/py_pubsub/build/lib
+[4.044s] creating /my_new_project/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[4.057s] copying py_pubsub/publisher_member_function.py -> /my_new_project/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[4.114s] copying py_pubsub/subscriber_member_function.py -> /my_new_project/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[4.136s] copying py_pubsub/__init__.py -> /my_new_project/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[4.155s] running install
+[4.170s] running install_lib
+[4.229s] creating /my_new_project/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[4.252s] copying /my_new_project/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /my_new_project/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[4.299s] copying /my_new_project/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /my_new_project/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[4.347s] copying /my_new_project/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /my_new_project/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[4.393s] byte-compiling /my_new_project/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[4.448s] byte-compiling /my_new_project/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-312.pyc
+[4.541s] byte-compiling /my_new_project/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc
+[4.593s] running install_data
+[4.602s] creating /my_new_project/ros2_ws/install/py_pubsub/share/ament_index
+[4.606s] creating /my_new_project/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[4.611s] creating /my_new_project/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[4.629s] copying resource/py_pubsub -> /my_new_project/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[4.667s] copying package.xml -> /my_new_project/ros2_ws/install/py_pubsub/share/py_pubsub
+[4.691s] running install_egg_info
+[4.758s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /my_new_project/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[5.130s] running install_scripts
+[5.495s] Installing listener script to /my_new_project/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.515s] Installing talker script to /my_new_project/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.538s] writing list of installed files to '/my_new_project/ros2_ws/build/py_pubsub/install.log'
+[5.717s] Invoked command in '/my_new_project/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/my_new_project/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_new_project/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /my_new_project/ros2_ws/build/py_pubsub/build install --record /my_new_project/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

@@ -1,1 +1,3 @@
-/my_new_project/ros2_ws/ros_tutorials/turtlesim/srv/TeleportRelative.srv
+float32 linear
+float32 angular
+---

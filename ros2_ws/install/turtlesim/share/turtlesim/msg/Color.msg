@@ -1,1 +1,3 @@
-/my_new_project/ros2_ws/ros_tutorials/turtlesim/msg/Color.msg
+uint8 r
+uint8 g
+uint8 b

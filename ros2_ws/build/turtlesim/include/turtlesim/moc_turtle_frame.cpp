@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../../../../ros_tutorials/turtlesim/include/turtlesim/turtle_frame.hpp"
+#include "../../../../src/ros_tutorials/turtlesim/include/turtlesim/turtle_frame.hpp"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)

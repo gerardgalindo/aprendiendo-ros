@@ -1,1 +1,23 @@
-/my_new_project/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/Spawn.idl
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtlesim/srv/Spawn.srv
+// generated code does not contain a copyright notice
+
+
+module turtlesim {
+  module srv {
+    struct Spawn_Request {
+      float x;
+
+      float y;
+
+      float theta;
+
+      @verbatim (language="comment", text=
+        "Optional.  A unique name will be created and returned if this is empty")
+      string name;
+    };
+    struct Spawn_Response {
+      string name;
+    };
+  };
+};

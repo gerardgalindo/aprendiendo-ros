@@ -1,5 +1,5 @@
 CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o: \
- /my_new_project/ros2_ws/ros_tutorials/turtlesim/tutorials/draw_square.cpp \
+ /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/tutorials/draw_square.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/chrono \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -704,4 +704,4 @@ CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o: \
  /my_new_project/ros2_ws/build/turtlesim/rosidl_generator_cpp/turtlesim/msg/detail/pose__traits.hpp \
  /my_new_project/ros2_ws/build/turtlesim/rosidl_generator_cpp/turtlesim/msg/detail/pose__type_support.hpp \
  /my_new_project/ros2_ws/build/turtlesim/rosidl_generator_cpp/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp \
- /my_new_project/ros2_ws/ros_tutorials/turtlesim/include/turtlesim/qos.hpp
+ /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/qos.hpp

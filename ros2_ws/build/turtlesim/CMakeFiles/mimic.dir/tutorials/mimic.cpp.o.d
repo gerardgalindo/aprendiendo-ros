@@ -1,5 +1,5 @@
 CMakeFiles/mimic.dir/tutorials/mimic.cpp.o: \
- /my_new_project/ros2_ws/ros_tutorials/turtlesim/tutorials/mimic.cpp \
+ /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/tutorials/mimic.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal \
@@ -700,4 +700,4 @@ CMakeFiles/mimic.dir/tutorials/mimic.cpp.o: \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /my_new_project/ros2_ws/ros_tutorials/turtlesim/include/turtlesim/qos.hpp
+ /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/qos.hpp

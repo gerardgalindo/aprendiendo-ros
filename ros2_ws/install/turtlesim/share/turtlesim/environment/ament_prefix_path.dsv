@@ -1,1 +1,1 @@
-/my_new_project/ros2_ws/build/turtlesim/ament_cmake_environment_hooks/ament_prefix_path.dsv
+prepend-non-duplicate;AMENT_PREFIX_PATH;

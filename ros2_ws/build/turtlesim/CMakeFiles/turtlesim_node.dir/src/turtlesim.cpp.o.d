@@ -1,5 +1,5 @@
 CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o: \
- /my_new_project/ros2_ws/ros_tutorials/turtlesim/src/turtlesim.cpp \
+ /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/src/turtlesim.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
@@ -764,8 +764,8 @@ CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_map.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_event_handler.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_service.hpp \
- /my_new_project/ros2_ws/ros_tutorials/turtlesim/include/turtlesim/turtle_frame.hpp \
- /my_new_project/ros2_ws/ros_tutorials/turtlesim/include/turtlesim/turtle.hpp \
+ /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle_frame.hpp \
+ /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle.hpp \
  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/action_type_support.hpp \

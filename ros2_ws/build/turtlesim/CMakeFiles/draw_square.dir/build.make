@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /my_new_project/ros2_ws/ros_tutorials/turtlesim
+CMAKE_SOURCE_DIR = /my_new_project/ros2_ws/src/ros_tutorials/turtlesim
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /my_new_project/ros2_ws/build/turtlesim
@@ -70,18 +70,18 @@ include CMakeFiles/draw_square.dir/progress.make
 include CMakeFiles/draw_square.dir/flags.make
 
 CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o: CMakeFiles/draw_square.dir/flags.make
-CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o: /my_new_project/ros2_ws/ros_tutorials/turtlesim/tutorials/draw_square.cpp
+CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o: /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/tutorials/draw_square.cpp
 CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o: CMakeFiles/draw_square.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/my_new_project/ros2_ws/build/turtlesim/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o -MF CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o.d -o CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o -c /my_new_project/ros2_ws/ros_tutorials/turtlesim/tutorials/draw_square.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o -MF CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o.d -o CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o -c /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/tutorials/draw_square.cpp
 
 CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /my_new_project/ros2_ws/ros_tutorials/turtlesim/tutorials/draw_square.cpp > CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/tutorials/draw_square.cpp > CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.i
 
 CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /my_new_project/ros2_ws/ros_tutorials/turtlesim/tutorials/draw_square.cpp -o CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/tutorials/draw_square.cpp -o CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.s
 
 # Object files for target draw_square
 draw_square_OBJECTS = \
@@ -200,6 +200,6 @@ CMakeFiles/draw_square.dir/clean:
 .PHONY : CMakeFiles/draw_square.dir/clean
 
 CMakeFiles/draw_square.dir/depend:
-	cd /my_new_project/ros2_ws/build/turtlesim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /my_new_project/ros2_ws/ros_tutorials/turtlesim /my_new_project/ros2_ws/ros_tutorials/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim/CMakeFiles/draw_square.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /my_new_project/ros2_ws/build/turtlesim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /my_new_project/ros2_ws/src/ros_tutorials/turtlesim /my_new_project/ros2_ws/src/ros_tutorials/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim/CMakeFiles/draw_square.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/draw_square.dir/depend
 

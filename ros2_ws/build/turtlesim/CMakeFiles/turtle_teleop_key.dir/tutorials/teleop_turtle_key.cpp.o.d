@@ -1,5 +1,5 @@
 CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o: \
- /my_new_project/ros2_ws/ros_tutorials/turtlesim/tutorials/teleop_turtle_key.cpp \
+ /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/tutorials/teleop_turtle_key.cpp \
  /usr/include/stdc-predef.h /usr/include/signal.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -780,4 +780,4 @@ CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
- /my_new_project/ros2_ws/ros_tutorials/turtlesim/include/turtlesim/qos.hpp
+ /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/qos.hpp

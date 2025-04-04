@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /my_new_project/ros2_ws/ros_tutorials/turtlesim
+CMAKE_SOURCE_DIR = /my_new_project/ros2_ws/src/ros_tutorials/turtlesim
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /my_new_project/ros2_ws/build/turtlesim
@@ -66,14 +66,14 @@ include CMakeFiles/turtlesim.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/turtlesim.dir/progress.make
 
-CMakeFiles/turtlesim: /my_new_project/ros2_ws/ros_tutorials/turtlesim/action/RotateAbsolute.action
-CMakeFiles/turtlesim: /my_new_project/ros2_ws/ros_tutorials/turtlesim/msg/Color.msg
-CMakeFiles/turtlesim: /my_new_project/ros2_ws/ros_tutorials/turtlesim/msg/Pose.msg
-CMakeFiles/turtlesim: /my_new_project/ros2_ws/ros_tutorials/turtlesim/srv/Kill.srv
-CMakeFiles/turtlesim: /my_new_project/ros2_ws/ros_tutorials/turtlesim/srv/SetPen.srv
-CMakeFiles/turtlesim: /my_new_project/ros2_ws/ros_tutorials/turtlesim/srv/Spawn.srv
-CMakeFiles/turtlesim: /my_new_project/ros2_ws/ros_tutorials/turtlesim/srv/TeleportAbsolute.srv
-CMakeFiles/turtlesim: /my_new_project/ros2_ws/ros_tutorials/turtlesim/srv/TeleportRelative.srv
+CMakeFiles/turtlesim: /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/action/RotateAbsolute.action
+CMakeFiles/turtlesim: /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/msg/Color.msg
+CMakeFiles/turtlesim: /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/msg/Pose.msg
+CMakeFiles/turtlesim: /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/srv/Kill.srv
+CMakeFiles/turtlesim: /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/srv/SetPen.srv
+CMakeFiles/turtlesim: /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/srv/Spawn.srv
+CMakeFiles/turtlesim: /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/srv/TeleportAbsolute.srv
+CMakeFiles/turtlesim: /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/srv/TeleportRelative.srv
 CMakeFiles/turtlesim: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 CMakeFiles/turtlesim: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/turtlesim: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
@@ -93,6 +93,6 @@ CMakeFiles/turtlesim.dir/clean:
 .PHONY : CMakeFiles/turtlesim.dir/clean
 
 CMakeFiles/turtlesim.dir/depend:
-	cd /my_new_project/ros2_ws/build/turtlesim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /my_new_project/ros2_ws/ros_tutorials/turtlesim /my_new_project/ros2_ws/ros_tutorials/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim/CMakeFiles/turtlesim.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /my_new_project/ros2_ws/build/turtlesim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /my_new_project/ros2_ws/src/ros_tutorials/turtlesim /my_new_project/ros2_ws/src/ros_tutorials/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim/CMakeFiles/turtlesim.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/turtlesim.dir/depend
 

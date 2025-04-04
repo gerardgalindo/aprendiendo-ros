@@ -10,7 +10,7 @@
 /my_new_project/ros2_ws/build/turtlesim/CMakeFiles/turtlesim__rosidl_typesupport_c.dir
 /my_new_project/ros2_ws/build/turtlesim/CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir
 /my_new_project/ros2_ws/build/turtlesim/CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir
-/my_new_project/ros2_ws/build/turtlesim/CMakeFiles/ament_cmake_python_symlink_turtlesim.dir
+/my_new_project/ros2_ws/build/turtlesim/CMakeFiles/ament_cmake_python_copy_turtlesim.dir
 /my_new_project/ros2_ws/build/turtlesim/CMakeFiles/ament_cmake_python_build_turtlesim_egg.dir
 /my_new_project/ros2_ws/build/turtlesim/CMakeFiles/turtlesim__rosidl_generator_py.dir
 /my_new_project/ros2_ws/build/turtlesim/CMakeFiles/turtlesim_s__rosidl_typesupport_fastrtps_c.dir

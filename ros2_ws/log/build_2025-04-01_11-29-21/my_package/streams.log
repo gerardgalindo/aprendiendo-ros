@@ -1,1 +1,0 @@
-[0.421s] Invoking command in '/my_new_project/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /my_new_project/ros2_ws/build/my_package -- -j16 -l16

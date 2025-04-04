@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /my_new_project/ros2_ws/ros_tutorials/turtlesim
+CMAKE_SOURCE_DIR = /my_new_project/ros2_ws/src/ros_tutorials/turtlesim
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /my_new_project/ros2_ws/build/turtlesim
@@ -261,6 +261,6 @@ CMakeFiles/turtlesim__rosidl_generator_py.dir/clean:
 .PHONY : CMakeFiles/turtlesim__rosidl_generator_py.dir/clean
 
 CMakeFiles/turtlesim__rosidl_generator_py.dir/depend:
-	cd /my_new_project/ros2_ws/build/turtlesim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /my_new_project/ros2_ws/ros_tutorials/turtlesim /my_new_project/ros2_ws/ros_tutorials/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim/CMakeFiles/turtlesim__rosidl_generator_py.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /my_new_project/ros2_ws/build/turtlesim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /my_new_project/ros2_ws/src/ros_tutorials/turtlesim /my_new_project/ros2_ws/src/ros_tutorials/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim/CMakeFiles/turtlesim__rosidl_generator_py.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/turtlesim__rosidl_generator_py.dir/depend
 

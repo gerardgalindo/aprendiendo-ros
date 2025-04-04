@@ -13,14 +13,14 @@
     "/my_new_project/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl"
   ],
   "ros_interface_files": [
-    "/my_new_project/ros2_ws/ros_tutorials/turtlesim/action/RotateAbsolute.action",
-    "/my_new_project/ros2_ws/ros_tutorials/turtlesim/msg/Color.msg",
-    "/my_new_project/ros2_ws/ros_tutorials/turtlesim/msg/Pose.msg",
-    "/my_new_project/ros2_ws/ros_tutorials/turtlesim/srv/Kill.srv",
-    "/my_new_project/ros2_ws/ros_tutorials/turtlesim/srv/SetPen.srv",
-    "/my_new_project/ros2_ws/ros_tutorials/turtlesim/srv/Spawn.srv",
-    "/my_new_project/ros2_ws/ros_tutorials/turtlesim/srv/TeleportAbsolute.srv",
-    "/my_new_project/ros2_ws/ros_tutorials/turtlesim/srv/TeleportRelative.srv"
+    "/my_new_project/ros2_ws/src/ros_tutorials/turtlesim/action/RotateAbsolute.action",
+    "/my_new_project/ros2_ws/src/ros_tutorials/turtlesim/msg/Color.msg",
+    "/my_new_project/ros2_ws/src/ros_tutorials/turtlesim/msg/Pose.msg",
+    "/my_new_project/ros2_ws/src/ros_tutorials/turtlesim/srv/Kill.srv",
+    "/my_new_project/ros2_ws/src/ros_tutorials/turtlesim/srv/SetPen.srv",
+    "/my_new_project/ros2_ws/src/ros_tutorials/turtlesim/srv/Spawn.srv",
+    "/my_new_project/ros2_ws/src/ros_tutorials/turtlesim/srv/TeleportAbsolute.srv",
+    "/my_new_project/ros2_ws/src/ros_tutorials/turtlesim/srv/TeleportRelative.srv"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",

@@ -15,10 +15,11 @@ Create package C++
 ros2 pkg create --build-type ament_cmake --node-name my_node my_package
 
 Create package Python
-
+ros2 pkg create --build-type ament_python --node-name my_node my_package
 
 Build all
 colcon build --symlink-install
+--symlink-install saves you from having to rebuild every time you tweak python scripts
 
 Build package
 colcon build --packages-select my_package

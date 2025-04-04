@@ -1,1 +1,16 @@
-/my_new_project/ros2_ws/build/turtlesim/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+action/RotateAbsolute.action
+action/RotateAbsolute.idl
+msg/Color.idl
+msg/Color.msg
+msg/Pose.idl
+msg/Pose.msg
+srv/Kill.idl
+srv/Kill.srv
+srv/SetPen.idl
+srv/SetPen.srv
+srv/Spawn.idl
+srv/Spawn.srv
+srv/TeleportAbsolute.idl
+srv/TeleportAbsolute.srv
+srv/TeleportRelative.idl
+srv/TeleportRelative.srv

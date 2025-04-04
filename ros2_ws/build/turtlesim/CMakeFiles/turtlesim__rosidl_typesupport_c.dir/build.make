@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /my_new_project/ros2_ws/ros_tutorials/turtlesim
+CMAKE_SOURCE_DIR = /my_new_project/ros2_ws/src/ros_tutorials/turtlesim
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /my_new_project/ros2_ws/build/turtlesim
@@ -282,6 +282,6 @@ CMakeFiles/turtlesim__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/turt
 CMakeFiles/turtlesim__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp
 CMakeFiles/turtlesim__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp
 CMakeFiles/turtlesim__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp
-	cd /my_new_project/ros2_ws/build/turtlesim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /my_new_project/ros2_ws/ros_tutorials/turtlesim /my_new_project/ros2_ws/ros_tutorials/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim/CMakeFiles/turtlesim__rosidl_typesupport_c.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /my_new_project/ros2_ws/build/turtlesim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /my_new_project/ros2_ws/src/ros_tutorials/turtlesim /my_new_project/ros2_ws/src/ros_tutorials/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim/CMakeFiles/turtlesim__rosidl_typesupport_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/turtlesim__rosidl_typesupport_c.dir/depend
 

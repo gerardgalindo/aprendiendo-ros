@@ -1,1 +1,8 @@
-/my_new_project/ros2_ws/ros_tutorials/turtlesim/action/RotateAbsolute.action
+# The desired heading in radians
+float32 theta
+---
+# The angular displacement in radians to the starting position
+float32 delta
+---
+# The remaining rotation in radians
+float32 remaining

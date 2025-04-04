@@ -1,1 +1,20 @@
-/my_new_project/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/msg/Pose.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtlesim/msg/Pose.msg
+// generated code does not contain a copyright notice
+
+
+module turtlesim {
+  module msg {
+    struct Pose {
+      float x;
+
+      float y;
+
+      float theta;
+
+      float linear_velocity;
+
+      float angular_velocity;
+    };
+  };
+};

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /my_new_project/ros2_ws/ros_tutorials/turtlesim
+CMAKE_SOURCE_DIR = /my_new_project/ros2_ws/src/ros_tutorials/turtlesim
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /my_new_project/ros2_ws/build/turtlesim
@@ -70,18 +70,18 @@ include CMakeFiles/mimic.dir/progress.make
 include CMakeFiles/mimic.dir/flags.make
 
 CMakeFiles/mimic.dir/tutorials/mimic.cpp.o: CMakeFiles/mimic.dir/flags.make
-CMakeFiles/mimic.dir/tutorials/mimic.cpp.o: /my_new_project/ros2_ws/ros_tutorials/turtlesim/tutorials/mimic.cpp
+CMakeFiles/mimic.dir/tutorials/mimic.cpp.o: /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/tutorials/mimic.cpp
 CMakeFiles/mimic.dir/tutorials/mimic.cpp.o: CMakeFiles/mimic.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/my_new_project/ros2_ws/build/turtlesim/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mimic.dir/tutorials/mimic.cpp.o -MF CMakeFiles/mimic.dir/tutorials/mimic.cpp.o.d -o CMakeFiles/mimic.dir/tutorials/mimic.cpp.o -c /my_new_project/ros2_ws/ros_tutorials/turtlesim/tutorials/mimic.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mimic.dir/tutorials/mimic.cpp.o -MF CMakeFiles/mimic.dir/tutorials/mimic.cpp.o.d -o CMakeFiles/mimic.dir/tutorials/mimic.cpp.o -c /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/tutorials/mimic.cpp
 
 CMakeFiles/mimic.dir/tutorials/mimic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mimic.dir/tutorials/mimic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /my_new_project/ros2_ws/ros_tutorials/turtlesim/tutorials/mimic.cpp > CMakeFiles/mimic.dir/tutorials/mimic.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/tutorials/mimic.cpp > CMakeFiles/mimic.dir/tutorials/mimic.cpp.i
 
 CMakeFiles/mimic.dir/tutorials/mimic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mimic.dir/tutorials/mimic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /my_new_project/ros2_ws/ros_tutorials/turtlesim/tutorials/mimic.cpp -o CMakeFiles/mimic.dir/tutorials/mimic.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/tutorials/mimic.cpp -o CMakeFiles/mimic.dir/tutorials/mimic.cpp.s
 
 # Object files for target mimic
 mimic_OBJECTS = \
@@ -192,6 +192,6 @@ CMakeFiles/mimic.dir/clean:
 .PHONY : CMakeFiles/mimic.dir/clean
 
 CMakeFiles/mimic.dir/depend:
-	cd /my_new_project/ros2_ws/build/turtlesim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /my_new_project/ros2_ws/ros_tutorials/turtlesim /my_new_project/ros2_ws/ros_tutorials/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim/CMakeFiles/mimic.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /my_new_project/ros2_ws/build/turtlesim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /my_new_project/ros2_ws/src/ros_tutorials/turtlesim /my_new_project/ros2_ws/src/ros_tutorials/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim /my_new_project/ros2_ws/build/turtlesim/CMakeFiles/mimic.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mimic.dir/depend
 

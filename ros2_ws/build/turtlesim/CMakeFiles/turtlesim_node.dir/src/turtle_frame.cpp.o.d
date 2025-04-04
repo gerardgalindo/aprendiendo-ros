@@ -1,8 +1,8 @@
 CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o: \
- /my_new_project/ros2_ws/ros_tutorials/turtlesim/src/turtle_frame.cpp \
+ /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp \
  /usr/include/stdc-predef.h \
- /my_new_project/ros2_ws/ros_tutorials/turtlesim/include/turtlesim/turtle_frame.hpp \
- /my_new_project/ros2_ws/ros_tutorials/turtlesim/include/turtlesim/turtle.hpp \
+ /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle_frame.hpp \
+ /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \

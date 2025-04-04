@@ -1,7 +1,7 @@
 CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o: \
- /my_new_project/ros2_ws/ros_tutorials/turtlesim/src/turtle.cpp \
+ /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp \
  /usr/include/stdc-predef.h \
- /my_new_project/ros2_ws/ros_tutorials/turtlesim/include/turtlesim/turtle.hpp \
+ /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -882,4 +882,4 @@ CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QRgb \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
- /my_new_project/ros2_ws/ros_tutorials/turtlesim/include/turtlesim/qos.hpp
+ /my_new_project/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/qos.hpp
