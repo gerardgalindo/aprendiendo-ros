@@ -9,13 +9,21 @@ ros2 param
 ros2 service
 ros2 action
 
-En ros2_ws/
+-------------- First time using rosdep, it must be initialized
+sudo rosdep init
+rosdep update
+--------------
 
+En ros2_ws/src
 Create package C++
 ros2 pkg create --build-type ament_cmake --node-name my_node my_package
 
 Create package Python
 ros2 pkg create --build-type ament_python --node-name my_node my_package
+
+En ros2_ws/
+Check for missing dependencies before building
+rosdep install -i --from-path src --rosdistro jazzy -y
 
 Build all
 colcon build --symlink-install
