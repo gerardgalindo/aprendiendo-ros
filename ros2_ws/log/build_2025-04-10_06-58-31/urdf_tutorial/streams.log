@@ -1,0 +1,40 @@
+[1.026s] Invoking command in '/my_new_project/ros2_ws/build/urdf_tutorial': /usr/bin/cmake /my_new_project/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/my_new_project/ros2_ws/install/urdf_tutorial
+[1.077s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.079s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.080s]   CMake.
+[1.082s] 
+[1.083s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.085s]   CMake that the project does not need compatibility with older versions.
+[1.087s] 
+[1.088s] [0m
+[1.536s] -- The C compiler identification is GNU 13.3.0
+[1.974s] -- The CXX compiler identification is GNU 13.3.0
+[2.091s] -- Detecting C compiler ABI info
+[3.150s] -- Detecting C compiler ABI info - done
+[3.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.207s] -- Detecting C compile features
+[3.209s] -- Detecting C compile features - done
+[3.295s] -- Detecting CXX compiler ABI info
+[4.410s] -- Detecting CXX compiler ABI info - done
+[4.477s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.479s] -- Detecting CXX compile features
+[4.480s] -- Detecting CXX compile features - done
+[4.650s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[4.652s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[4.653s]   asked CMake to find a package configuration file provided by "catkin", but
+[4.654s]   CMake did not find one.
+[4.656s] 
+[4.659s]   Could not find a package configuration file provided by "catkin" with any
+[4.660s]   of the following names:
+[4.661s] 
+[4.663s]     catkinConfig.cmake
+[4.664s]     catkin-config.cmake
+[4.666s] 
+[4.667s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[4.668s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[4.669s]   provides a separate development package or SDK, be sure it has been
+[4.671s]   installed.
+[4.672s] 
+[4.675s] [0m
+[4.676s] -- Configuring incomplete, errors occurred!
+[4.679s] Invoked command in '/my_new_project/ros2_ws/build/urdf_tutorial' returned '1': /usr/bin/cmake /my_new_project/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/my_new_project/ros2_ws/install/urdf_tutorial

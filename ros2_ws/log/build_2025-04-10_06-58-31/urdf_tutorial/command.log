@@ -1,0 +1,2 @@
+Invoking command in '/my_new_project/ros2_ws/build/urdf_tutorial': /usr/bin/cmake /my_new_project/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/my_new_project/ros2_ws/install/urdf_tutorial
+Invoked command in '/my_new_project/ros2_ws/build/urdf_tutorial' returned '1': /usr/bin/cmake /my_new_project/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/my_new_project/ros2_ws/install/urdf_tutorial

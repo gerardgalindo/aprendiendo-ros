@@ -1,0 +1,249 @@
+[0.000000] (-) TimerEvent: {}
+[0.000454] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000797] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.001138] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001430] (urdf_tutorial) JobQueued: {'identifier': 'urdf_tutorial', 'dependencies': OrderedDict()}
+[0.029528] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.098641] (-) TimerEvent: {}
+[0.143196] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.202041] (-) TimerEvent: {}
+[0.226195] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.245732] (urdf_tutorial) JobStarted: {'identifier': 'urdf_tutorial'}
+[0.306996] (-) TimerEvent: {}
+[0.409196] (-) TimerEvent: {}
+[0.516106] (-) TimerEvent: {}
+[0.617751] (-) TimerEvent: {}
+[0.720949] (-) TimerEvent: {}
+[0.831700] (-) TimerEvent: {}
+[0.932978] (-) TimerEvent: {}
+[1.035984] (-) TimerEvent: {}
+[1.104072] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[1.138558] (-) TimerEvent: {}
+[1.156584] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[1.164684] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/my_new_project/ros2_ws/build/turtlesim', '--', '-j16', '-l16'], 'cwd': '/my_new_project/ros2_ws/build/turtlesim', 'env': OrderedDict({'HOSTNAME': '3f0008245f18', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'OLDPWD': '/my_new_project/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.99.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-b13e02c9-32d4-4679-8658-3c47999f9ea4.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-19444486-3499-4d65-8ea1-23da2431dec9.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X7","/home/ubuntu/.gnupg/S.gpg-agent"]', 'DISPLAY': ':7', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2c304bce0e804d9b.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-6a78ed60a4.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X7', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/my_new_project/ros2_ws/build/turtlesim', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.215393] (urdf_tutorial) JobProgress: {'identifier': 'urdf_tutorial', 'progress': 'cmake'}
+[1.239704] (-) TimerEvent: {}
+[1.256830] (urdf_tutorial) Command: {'cmd': ['/usr/bin/cmake', '/my_new_project/ros2_ws/src/urdf_tutorial', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/my_new_project/ros2_ws/install/urdf_tutorial'], 'cwd': '/my_new_project/ros2_ws/build/urdf_tutorial', 'env': OrderedDict({'HOSTNAME': '3f0008245f18', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'OLDPWD': '/my_new_project/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.99.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-b13e02c9-32d4-4679-8658-3c47999f9ea4.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-19444486-3499-4d65-8ea1-23da2431dec9.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X7","/home/ubuntu/.gnupg/S.gpg-agent"]', 'DISPLAY': ':7', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2c304bce0e804d9b.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-6a78ed60a4.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X7', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/my_new_project/ros2_ws/build/urdf_tutorial', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[1.322174] (urdf_tutorial) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[1.323933] (urdf_tutorial) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[1.325351] (urdf_tutorial) StderrLine: {'line': b'  CMake.\n'}
+[1.326724] (urdf_tutorial) StderrLine: {'line': b'\n'}
+[1.328147] (urdf_tutorial) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[1.329768] (urdf_tutorial) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[1.331839] (urdf_tutorial) StderrLine: {'line': b'\n'}
+[1.333539] (urdf_tutorial) StderrLine: {'line': b'\x1b[0m\n'}
+[1.340369] (-) TimerEvent: {}
+[1.443544] (-) TimerEvent: {}
+[1.544794] (-) TimerEvent: {}
+[1.647103] (-) TimerEvent: {}
+[1.748756] (-) TimerEvent: {}
+[1.780432] (urdf_tutorial) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.849774] (-) TimerEvent: {}
+[1.950684] (-) TimerEvent: {}
+[2.044365] (turtlesim) StdoutLine: {'line': b'[  0%] Built target turtlesim__rosidl_generator_type_description\n'}
+[2.050869] (-) TimerEvent: {}
+[2.152251] (-) TimerEvent: {}
+[2.218640] (urdf_tutorial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.252545] (-) TimerEvent: {}
+[2.335505] (urdf_tutorial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.353193] (-) TimerEvent: {}
+[2.454724] (-) TimerEvent: {}
+[2.556910] (-) TimerEvent: {}
+[2.659241] (-) TimerEvent: {}
+[2.760684] (-) TimerEvent: {}
+[2.781891] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[2.860872] (-) TimerEvent: {}
+[2.961700] (-) TimerEvent: {}
+[3.062428] (-) TimerEvent: {}
+[3.164576] (-) TimerEvent: {}
+[3.266019] (-) TimerEvent: {}
+[3.369061] (-) TimerEvent: {}
+[3.394407] (urdf_tutorial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.449307] (urdf_tutorial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.451642] (urdf_tutorial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.454333] (urdf_tutorial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.470208] (-) TimerEvent: {}
+[3.539868] (urdf_tutorial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.570551] (-) TimerEvent: {}
+[3.671426] (-) TimerEvent: {}
+[3.702026] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/my_new_project/ros2_ws/build/py_pubsub/build', 'install', '--record', '/my_new_project/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/my_new_project/ros2_ws/src/py_pubsub', 'env': {'HOSTNAME': '3f0008245f18', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'OLDPWD': '/my_new_project/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.99.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-b13e02c9-32d4-4679-8658-3c47999f9ea4.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-19444486-3499-4d65-8ea1-23da2431dec9.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X7","/home/ubuntu/.gnupg/S.gpg-agent"]', 'DISPLAY': ':7', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2c304bce0e804d9b.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-6a78ed60a4.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X7', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/my_new_project/ros2_ws/build/py_pubsub', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/my_new_project/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_new_project/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.724141] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/my_new_project/ros2_ws/build/my_package/build', 'install', '--record', '/my_new_project/ros2_ws/build/my_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/my_new_project/ros2_ws/src/my_package', 'env': {'HOSTNAME': '3f0008245f18', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'OLDPWD': '/my_new_project/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.99.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-b13e02c9-32d4-4679-8658-3c47999f9ea4.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-19444486-3499-4d65-8ea1-23da2431dec9.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X7","/home/ubuntu/.gnupg/S.gpg-agent"]', 'DISPLAY': ':7', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2c304bce0e804d9b.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-6a78ed60a4.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X7', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/my_new_project/ros2_ws/build/my_package', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/my_new_project/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_new_project/ros2_ws/install/my_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.771746] (-) TimerEvent: {}
+[3.874003] (-) TimerEvent: {}
+[3.975220] (-) TimerEvent: {}
+[4.076545] (-) TimerEvent: {}
+[4.177944] (-) TimerEvent: {}
+[4.279544] (-) TimerEvent: {}
+[4.351367] (turtlesim) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_turtlesim\n'}
+[4.380522] (-) TimerEvent: {}
+[4.395714] (turtlesim) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/turtlesim__rosidl_generator_c.dir/compiler_depend.make' has modification time 0.19 s in the future\n"}
+[4.480764] (-) TimerEvent: {}
+[4.582723] (-) TimerEvent: {}
+[4.654490] (urdf_tutorial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.683252] (-) TimerEvent: {}
+[4.721734] (urdf_tutorial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.723443] (urdf_tutorial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.725304] (urdf_tutorial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.783663] (-) TimerEvent: {}
+[4.819833] (turtlesim) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[4.886241] (-) TimerEvent: {}
+[4.895197] (urdf_tutorial) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[4.896671] (urdf_tutorial) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[4.898170] (urdf_tutorial) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[4.899591] (urdf_tutorial) StderrLine: {'line': b'  CMake did not find one.\n'}
+[4.901167] (urdf_tutorial) StderrLine: {'line': b'\n'}
+[4.902858] (urdf_tutorial) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[4.905146] (urdf_tutorial) StderrLine: {'line': b'  of the following names:\n'}
+[4.906434] (urdf_tutorial) StderrLine: {'line': b'\n'}
+[4.907810] (urdf_tutorial) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[4.909483] (urdf_tutorial) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[4.910678] (urdf_tutorial) StderrLine: {'line': b'\n'}
+[4.912050] (urdf_tutorial) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[4.913199] (urdf_tutorial) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[4.914599] (urdf_tutorial) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[4.916006] (urdf_tutorial) StderrLine: {'line': b'  installed.\n'}
+[4.917527] (urdf_tutorial) StderrLine: {'line': b'\n'}
+[4.918923] (urdf_tutorial) StderrLine: {'line': b'\x1b[0m\n'}
+[4.921112] (urdf_tutorial) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.924186] (urdf_tutorial) CommandEnded: {'returncode': 1}
+[4.946342] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[4.956808] (turtlesim) StdoutLine: {'line': b'[ 24%] Built target turtlesim__rosidl_generator_c\n'}
+[4.963908] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[4.972245] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[4.986980] (-) TimerEvent: {}
+[4.988696] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[4.995695] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[5.008269] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[5.025566] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[5.034351] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[5.039315] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[5.048653] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[5.051482] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[5.059531] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[5.063262] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[5.069788] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[5.073788] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[5.083884] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[5.086983] (-) TimerEvent: {}
+[5.188223] (-) TimerEvent: {}
+[5.231383] (urdf_tutorial) JobEnded: {'identifier': 'urdf_tutorial', 'rc': 1}
+[5.271324] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[5.284710] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.288572] (-) TimerEvent: {}
+[5.290442] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[5.389471] (-) TimerEvent: {}
+[5.394949] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[5.414066] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.453041] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[5.458718] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.461143] (my_package) StdoutLine: {'line': b'running build\n'}
+[5.463006] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[5.465071] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[5.466985] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[5.496999] (-) TimerEvent: {}
+[5.497483] (turtlesim) StdoutLine: {'line': b'[ 24%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[5.498753] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /my_new_project/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[5.514509] (my_package) StdoutLine: {'line': b'running install\n'}
+[5.533343] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[5.589793] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[5.597779] (-) TimerEvent: {}
+[5.606633] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[5.698713] (-) TimerEvent: {}
+[5.733926] (py_pubsub) StdoutLine: {'line': b'copying /my_new_project/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /my_new_project/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[5.770707] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[5.799634] (-) TimerEvent: {}
+[5.832537] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.895897] (my_package) StdoutLine: {'line': b"removing '/my_new_project/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.899917] (-) TimerEvent: {}
+[5.913219] (py_pubsub) StdoutLine: {'line': b'byte-compiling /my_new_project/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-312.pyc\n'}
+[5.972115] (turtlesim) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/turtlesim__rosidl_typesupport_c.dir/compiler_depend.make' has modification time 0.25 s in the future\n"}
+[6.000509] (-) TimerEvent: {}
+[6.019175] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /my_new_project/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info\n'}
+[6.053435] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[6.100673] (-) TimerEvent: {}
+[6.112693] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.138775] (turtlesim) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/compiler_depend.make' has modification time 0.24 s in the future\n"}
+[6.177329] (py_pubsub) StdoutLine: {'line': b"removing '/my_new_project/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[6.200861] (-) TimerEvent: {}
+[6.248225] (turtlesim) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[6.301092] (-) TimerEvent: {}
+[6.317437] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /my_new_project/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info\n'}
+[6.325839] (turtlesim) StdoutLine: {'line': b'[ 33%] Built target turtlesim__rosidl_typesupport_c\n'}
+[6.401362] (-) TimerEvent: {}
+[6.502501] (-) TimerEvent: {}
+[6.508474] (turtlesim) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[6.580618] (turtlesim) StdoutLine: {'line': b'[ 42%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[6.586348] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[6.602856] (-) TimerEvent: {}
+[6.703874] (-) TimerEvent: {}
+[6.805143] (-) TimerEvent: {}
+[6.827285] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[6.870733] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[6.905746] (-) TimerEvent: {}
+[7.007416] (-) TimerEvent: {}
+[7.033740] (my_package) StdoutLine: {'line': b'Installing my_node script to /my_new_project/ros2_ws/install/my_package/lib/my_package\n'}
+[7.062553] (turtlesim) StdoutLine: {'line': b'[ 59%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[7.064545] (my_package) StdoutLine: {'line': b"writing list of installed files to '/my_new_project/ros2_ws/build/my_package/install.log'\n"}
+[7.110278] (-) TimerEvent: {}
+[7.124747] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 'SIGINT'}
+[7.211400] (-) TimerEvent: {}
+[7.277207] (turtlesim) StdoutLine: {'line': b'[ 67%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[7.313759] (-) TimerEvent: {}
+[7.325905] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /my_new_project/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.350303] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /my_new_project/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.376307] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/my_new_project/ros2_ws/build/py_pubsub/install.log'\n"}
+[7.414276] (-) TimerEvent: {}
+[7.417535] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[7.458354] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 'SIGINT'}
+[7.514828] (-) TimerEvent: {}
+[7.572061] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtlesim\n'}
+[7.615450] (-) TimerEvent: {}
+[7.717709] (-) TimerEvent: {}
+[7.821458] (-) TimerEvent: {}
+[7.825359] (turtlesim) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/mimic.dir/compiler_depend.make' has modification time 0.15 s in the future\n"}
+[7.832103] (turtlesim) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/draw_square.dir/compiler_depend.make' has modification time 0.15 s in the future\n"}
+[7.890316] (turtlesim) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/turtle_teleop_key.dir/compiler_depend.make' has modification time 0.13 s in the future\n"}
+[7.897041] (turtlesim) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[7.898371] (turtlesim) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[7.917821] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target draw_square\n'}
+[7.921660] (-) TimerEvent: {}
+[7.923068] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target mimic\n'}
+[7.937865] (turtlesim) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[7.944442] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__py\n'}
+[7.961427] (turtlesim) StdoutLine: {'line': b'[ 81%] Built target turtle_teleop_key\n'}
+[8.021969] (-) TimerEvent: {}
+[8.122645] (-) TimerEvent: {}
+[8.224663] (-) TimerEvent: {}
+[8.325829] (-) TimerEvent: {}
+[8.428167] (-) TimerEvent: {}
+[8.532009] (-) TimerEvent: {}
+[8.633744] (-) TimerEvent: {}
+[8.737363] (-) TimerEvent: {}
+[8.841070] (-) TimerEvent: {}
+[8.944116] (-) TimerEvent: {}
+[8.950471] (turtlesim) StdoutLine: {'line': b'[ 86%] Built target turtlesim_node\n'}
+[9.044560] (-) TimerEvent: {}
+[9.146934] (-) TimerEvent: {}
+[9.201083] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_generator_py\n'}
+[9.247777] (-) TimerEvent: {}
+[9.349305] (-) TimerEvent: {}
+[9.453232] (-) TimerEvent: {}
+[9.555998] (-) TimerEvent: {}
+[9.616127] (turtlesim) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/turtlesim_s__rosidl_typesupport_introspection_c.dir/compiler_depend.make' has modification time 0.11 s in the future\n"}
+[9.617640] (turtlesim) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/turtlesim_s__rosidl_typesupport_fastrtps_c.dir/compiler_depend.make' has modification time 0.12 s in the future\n"}
+[9.618653] (turtlesim) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/turtlesim_s__rosidl_typesupport_c.dir/compiler_depend.make' has modification time 0.13 s in the future\n"}
+[9.656743] (-) TimerEvent: {}
+[9.660097] (turtlesim) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[9.661580] (turtlesim) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[9.662642] (turtlesim) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[9.711327] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_s__rosidl_typesupport_c\n'}
+[9.712455] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_s__rosidl_typesupport_introspection_c\n'}
+[9.713372] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_s__rosidl_typesupport_fastrtps_c\n'}
+[9.757560] (-) TimerEvent: {}
+[9.858684] (-) TimerEvent: {}
+[9.991233] (-) TimerEvent: {}
+[10.095115] (-) TimerEvent: {}
+[10.197681] (-) TimerEvent: {}
+[10.298698] (-) TimerEvent: {}
+[10.304186] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 'SIGINT'}
+[10.320822] (-) EventReactorShutdown: {}
