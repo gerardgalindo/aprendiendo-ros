@@ -1,0 +1,45 @@
+[1.451s] Invoking command in '/my_new_project/ros2_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /my_new_project/ros2_ws/build/urdf_tutorial -- -j16 -l16
+[1.655s] Invoked command in '/my_new_project/ros2_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /my_new_project/ros2_ws/build/urdf_tutorial -- -j16 -l16
+[1.705s] Invoking command in '/my_new_project/ros2_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /my_new_project/ros2_ws/build/urdf_tutorial
+[1.739s] -- Install configuration: ""
+[1.752s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/images
+[1.786s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/images/flexible.png
+[1.812s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/images/materials.png
+[1.842s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/images/multipleshapes.png
+[1.891s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/images/myfirst.png
+[1.921s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/images/origins.png
+[1.950s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/images/visual.png
+[1.985s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/launch
+[2.026s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/launch/display.launch.py
+[2.050s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/meshes
+[2.092s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger.dae
+[2.124s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger_color.png
+[2.155s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger_tip.dae
+[2.188s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger_tip_color.png
+[2.211s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/rviz
+[2.248s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/rviz/urdf.rviz
+[2.273s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/urdf
+[2.313s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/01-myfirst.urdf
+[2.343s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/02-multipleshapes.urdf
+[2.373s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/03-origins.urdf
+[2.403s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/04-materials.urdf
+[2.436s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/05-visual.urdf
+[2.468s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/06-flexible.urdf
+[2.499s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/07-physics.urdf
+[2.531s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/08-macroed.urdf.xacro
+[2.582s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial
+[2.632s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial
+[2.652s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.sh
+[2.681s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.dsv
+[2.700s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/environment/path.sh
+[2.730s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/environment/path.dsv
+[2.754s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.bash
+[2.780s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.sh
+[2.810s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.zsh
+[2.833s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.dsv
+[2.859s] -- Installing: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/package.dsv
+[2.987s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/ament_index/resource_index/packages/urdf_tutorial
+[3.022s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig.cmake
+[3.045s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig-version.cmake
+[3.073s] -- Up-to-date: /my_new_project/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/package.xml
+[3.977s] Invoked command in '/my_new_project/ros2_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /my_new_project/ros2_ws/build/urdf_tutorial

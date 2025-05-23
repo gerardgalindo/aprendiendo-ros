@@ -1,0 +1,69 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (12.3s)
+-- Generating done (0.5s)
+-- Build files have been written to: /my_new_project/ros2_ws/build/roarm
+-- Install configuration: ""
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/config
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/config/.gitkeep
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/launch
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/launch/roarm.launch.py
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/maps
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/maps/.gitkeep
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/base.stl
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L1.stl
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L2.stl
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L3.stl
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L4.stl
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L5_1_A.stl
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L5_1_B.stl
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L5_2_A.stl
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L5_2_B.stl
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L5_3_A.stl
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L5_3_B.stl
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/models
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/models/.gitkeep
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/params
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/params/.gitkeep
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/rviz
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/rviz/rviz_basic_settings.rviz
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/src
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/src/.gitkeep
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/urdf
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/urdf/roarm.urdf
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/worlds
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/worlds/.gitkeep
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/ament_index/resource_index/package_run_dependencies/roarm
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/ament_index/resource_index/parent_prefix_path/roarm
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/environment/ament_prefix_path.sh
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/environment/ament_prefix_path.dsv
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/environment/path.sh
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/environment/path.dsv
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/local_setup.bash
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/local_setup.sh
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/local_setup.zsh
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/local_setup.dsv
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/package.dsv
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/ament_index/resource_index/packages/roarm
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/cmake/roarmConfig.cmake
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/cmake/roarmConfig-version.cmake
+-- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/package.xml

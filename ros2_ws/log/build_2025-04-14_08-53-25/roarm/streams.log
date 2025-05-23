@@ -1,0 +1,79 @@
+[1.181s] Invoking command in '/my_new_project/ros2_ws/build/roarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /my_new_project/ros2_ws/src/roarm -DCMAKE_INSTALL_PREFIX=/my_new_project/ros2_ws/install/roarm
+[1.857s] -- The C compiler identification is GNU 13.3.0
+[2.319s] -- The CXX compiler identification is GNU 13.3.0
+[2.439s] -- Detecting C compiler ABI info
+[3.804s] -- Detecting C compiler ABI info - done
+[3.885s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.888s] -- Detecting C compile features
+[3.890s] -- Detecting C compile features - done
+[4.006s] -- Detecting CXX compiler ABI info
+[5.386s] -- Detecting CXX compiler ABI info - done
+[5.482s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.484s] -- Detecting CXX compile features
+[5.515s] -- Detecting CXX compile features - done
+[5.663s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.207s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.332s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[10.397s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.398s] -- Configured 'flake8' exclude dirs and/or files: 
+[10.910s] -- Added test 'lint_cmake' to check CMake code style
+[11.178s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[13.378s] -- Added test 'xmllint' to check XML markup files
+[13.602s] -- Configuring done (12.3s)
+[14.153s] -- Generating done (0.5s)
+[14.465s] -- Build files have been written to: /my_new_project/ros2_ws/build/roarm
+[14.472s] Invoked command in '/my_new_project/ros2_ws/build/roarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /my_new_project/ros2_ws/src/roarm -DCMAKE_INSTALL_PREFIX=/my_new_project/ros2_ws/install/roarm
+[14.485s] Invoking command in '/my_new_project/ros2_ws/build/roarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /my_new_project/ros2_ws/build/roarm -- -j16 -l16
+[14.510s] gmake: Warning: File 'Makefile' has modification time 0.63 s in the future
+[14.645s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 0.59 s in the future
+[14.646s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[14.661s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[14.663s] Invoked command in '/my_new_project/ros2_ws/build/roarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /my_new_project/ros2_ws/build/roarm -- -j16 -l16
+[14.690s] Invoking command in '/my_new_project/ros2_ws/build/roarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /my_new_project/ros2_ws/build/roarm
+[14.708s] -- Install configuration: ""
+[14.716s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/config
+[14.767s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/config/.gitkeep
+[14.871s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/launch
+[14.911s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/launch/roarm.launch.py
+[15.010s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/maps
+[15.057s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/maps/.gitkeep
+[15.185s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes
+[15.227s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/base.stl
+[15.381s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L1.stl
+[15.838s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L2.stl
+[15.972s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L3.stl
+[16.510s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L4.stl
+[16.978s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L5_1_A.stl
+[17.177s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L5_1_B.stl
+[17.346s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L5_2_A.stl
+[17.461s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L5_2_B.stl
+[17.588s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L5_3_A.stl
+[17.734s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/meshes/L5_3_B.stl
+[17.838s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/models
+[17.881s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/models/.gitkeep
+[18.005s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/params
+[18.075s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/params/.gitkeep
+[18.164s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/rviz
+[18.209s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/rviz/rviz_basic_settings.rviz
+[18.303s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/src
+[18.345s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/src/.gitkeep
+[18.458s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/urdf
+[18.501s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/urdf/roarm.urdf
+[18.602s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/worlds
+[18.671s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/worlds/.gitkeep
+[18.818s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/ament_index/resource_index/package_run_dependencies/roarm
+[19.023s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/ament_index/resource_index/parent_prefix_path/roarm
+[19.181s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/environment/ament_prefix_path.sh
+[19.271s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/environment/ament_prefix_path.dsv
+[19.391s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/environment/path.sh
+[19.476s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/environment/path.dsv
+[19.572s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/local_setup.bash
+[19.652s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/local_setup.sh
+[19.766s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/local_setup.zsh
+[19.849s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/local_setup.dsv
+[19.956s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/package.dsv
+[20.058s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/ament_index/resource_index/packages/roarm
+[20.180s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/cmake/roarmConfig.cmake
+[20.264s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/cmake/roarmConfig-version.cmake
+[20.389s] -- Installing: /my_new_project/ros2_ws/install/roarm/share/roarm/package.xml
+[20.465s] Invoked command in '/my_new_project/ros2_ws/build/roarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /my_new_project/ros2_ws/build/roarm

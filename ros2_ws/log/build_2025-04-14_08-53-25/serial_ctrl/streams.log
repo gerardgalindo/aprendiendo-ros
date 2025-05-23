@@ -1,0 +1,37 @@
+[5.293s] Invoking command in '/my_new_project/ros2_ws/src/serial_ctrl': PYTHONPATH=/my_new_project/ros2_ws/build/serial_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_new_project/ros2_ws/install/serial_ctrl/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_ctrl build --build-base /my_new_project/ros2_ws/build/serial_ctrl/build install --record /my_new_project/ros2_ws/build/serial_ctrl/install.log --single-version-externally-managed install_data
+[6.849s] running egg_info
+[6.853s] creating ../../build/serial_ctrl/serial_ctrl.egg-info
+[6.895s] writing ../../build/serial_ctrl/serial_ctrl.egg-info/PKG-INFO
+[6.910s] writing dependency_links to ../../build/serial_ctrl/serial_ctrl.egg-info/dependency_links.txt
+[6.920s] writing entry points to ../../build/serial_ctrl/serial_ctrl.egg-info/entry_points.txt
+[6.929s] writing requirements to ../../build/serial_ctrl/serial_ctrl.egg-info/requires.txt
+[6.936s] writing top-level names to ../../build/serial_ctrl/serial_ctrl.egg-info/top_level.txt
+[6.944s] writing manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'
+[7.074s] reading manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'
+[7.158s] writing manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'
+[7.162s] running build
+[7.163s] running build_py
+[7.170s] creating /my_new_project/ros2_ws/build/serial_ctrl/build
+[7.173s] creating /my_new_project/ros2_ws/build/serial_ctrl/build/lib
+[7.176s] creating /my_new_project/ros2_ws/build/serial_ctrl/build/lib/serial_ctrl
+[7.191s] copying serial_ctrl/serial_ctrl_py.py -> /my_new_project/ros2_ws/build/serial_ctrl/build/lib/serial_ctrl
+[7.225s] copying serial_ctrl/__init__.py -> /my_new_project/ros2_ws/build/serial_ctrl/build/lib/serial_ctrl
+[7.246s] running install
+[7.263s] running install_lib
+[7.329s] creating /my_new_project/ros2_ws/install/serial_ctrl/lib/python3.12/site-packages/serial_ctrl
+[7.356s] copying /my_new_project/ros2_ws/build/serial_ctrl/build/lib/serial_ctrl/serial_ctrl_py.py -> /my_new_project/ros2_ws/install/serial_ctrl/lib/python3.12/site-packages/serial_ctrl
+[7.412s] copying /my_new_project/ros2_ws/build/serial_ctrl/build/lib/serial_ctrl/__init__.py -> /my_new_project/ros2_ws/install/serial_ctrl/lib/python3.12/site-packages/serial_ctrl
+[7.465s] byte-compiling /my_new_project/ros2_ws/install/serial_ctrl/lib/python3.12/site-packages/serial_ctrl/serial_ctrl_py.py to serial_ctrl_py.cpython-312.pyc
+[7.534s] byte-compiling /my_new_project/ros2_ws/install/serial_ctrl/lib/python3.12/site-packages/serial_ctrl/__init__.py to __init__.cpython-312.pyc
+[7.591s] running install_data
+[7.601s] creating /my_new_project/ros2_ws/install/serial_ctrl/share/ament_index
+[7.605s] creating /my_new_project/ros2_ws/install/serial_ctrl/share/ament_index/resource_index
+[7.609s] creating /my_new_project/ros2_ws/install/serial_ctrl/share/ament_index/resource_index/packages
+[7.628s] copying resource/serial_ctrl -> /my_new_project/ros2_ws/install/serial_ctrl/share/ament_index/resource_index/packages
+[7.673s] copying package.xml -> /my_new_project/ros2_ws/install/serial_ctrl/share/serial_ctrl
+[7.695s] running install_egg_info
+[7.767s] Copying ../../build/serial_ctrl/serial_ctrl.egg-info to /my_new_project/ros2_ws/install/serial_ctrl/lib/python3.12/site-packages/serial_ctrl-0.0.0-py3.12.egg-info
+[8.157s] running install_scripts
+[8.592s] Installing serial_ctrl script to /my_new_project/ros2_ws/install/serial_ctrl/lib/serial_ctrl
+[8.611s] writing list of installed files to '/my_new_project/ros2_ws/build/serial_ctrl/install.log'
+[9.068s] Invoked command in '/my_new_project/ros2_ws/src/serial_ctrl' returned '0': PYTHONPATH=/my_new_project/ros2_ws/build/serial_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_new_project/ros2_ws/install/serial_ctrl/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_ctrl build --build-base /my_new_project/ros2_ws/build/serial_ctrl/build install --record /my_new_project/ros2_ws/build/serial_ctrl/install.log --single-version-externally-managed install_data
